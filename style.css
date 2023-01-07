@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ /* Header Section  */
+.header{
+    /* background-color: skyblue; */
+    background-image: url(images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 670px;
+    
+}
+.header-section{
+    text-align: right;
+    padding: 170px 150px 100px 800px;
+}
+.header-title{
+    text-align: right;
+    font-weight: 700;
+    font-size: 50px;
+}
+.header-description{
+    margin-top: 30px;
+    color: #7e7e7e;
+}
+.btn-primary{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 17px;
+    border: 0;
+    height: 40px;
+    border-radius: 5px;
+    background: red;
+    padding: 0px 23px;
+    margin-top: 30px;
+}
+ /* Main Section Style */
+ /* First Section Style */
+ .first-section{
+     margin-top: 100px;
+ }
+ .section-content{
+     display: flex;
+     justify-content: space-around;
+     gap: 100px;
+     padding: 0px 250px;
+ }
+.section-image{
+    width: 400px;
+    height: 500px;
+}
+.right-side{
+    padding: 120px 30px 0px 0px;
+}
+ul {
+   list-style: none; 
+}
+ ul li:before {
+      content:"\2714\0020"; 
+      color: rgb(17, 179, 17);
+    } 
+ul li{
+    color: #7e7e7e;
+    font-size: 15px;
+    margin-top: 7px;
+ 
+}
+.section-title{
+    font-size: 30px;
+    font-weight: 800;
+    padding: 0px 100px 0px 0px;
+}
+.section-description{
+    font-size: 15px;
+    color: #7e7e7e;
+    margin-top: 15px;
+    
+}
+ /* Second Section Styles */
+.second-section{
+     margin-top: 100px;
+}
+.title{
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    padding: 0px 400px;
+}
+.item{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    text-align: center;
+    padding: 0px 160px;
+}
+.item-details{
+     /* background: #dab0b0;  */
+    /* padding: 40px 20px 10px; */
+    border-radius: 5px;
+    height: 200px;
+    width: 220px; 
+}
+.image-icon{
+    height: 70px;
+    width: 70px;
+}
+.item-title{
+    margin-top: 15px;
+    font-size: 22px;
+}
+.item-description{
+    margin-top: 12px;
+    color: #797979;
+    font-weight: 600;
+}
+
+/* Extra New Section Styles */
+.new-section{
+    margin-top: 70px;
+    text-align: center;
+       
+}
+.new-section-title{
+    font-size: 35px;
+    font-weight: 800;
+    padding: 0px 400px;
+    text-align: center;
+}
+.achieve-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 30px;
+    text-align: left;  
+    padding: 0px 195px;
+}
+.achieve{
+    /* background: #faf8f8; */
+    box-shadow: 5px 7px 15px gray;
+    padding: 20px 20px 20px;
+    border-radius: 20px;
+    height: 200px;
+    width: 260px;
+}
+.achieve-image{
+    height: 45px;
+    width: 45px;
+}
+.achieve-title{
+   font-weight: 700;
+   font-size: 22px;
+   margin-top: 10px;
+}
+.achieve-des{
+   margin-top: 13px;
+   font-size: 14px;
+   color: #757575;
+}
+
+ /* Third Section Styles */
+.third-section{
+    margin-top: 100px;
+    background-image: linear-gradient(to right,#ffa500eb,#ffa50000),url(images/watch.png);
+    background-size: cover;
+    height: 250px;
+    width: 950px;
+    margin-left: 200px;
+    border-radius: 5px;
+}
+.third-sec-end{
+    padding: 50px 490px 80px 70px;
+}
+.third-sec-title{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+.third-sec-button{
+    color: orangered;
+    font-weight: 700;
+    font-size: 17px;
+    border: 0;
+    height: 40px;
+    border-radius: 5px;
+    background: aliceblue;
+    padding: 0px 23px;
+    margin-top: 22px; 
+}
+
+ /* Footer Section Styles */
+ .footer-section{
+     margin-top: 100px;
+     background-color: black;
+     width: 100%;
+     height: 350px;
+ }
+ .footer-main{
+     display: flex;
+     justify-content: space-around;
+     color: white;
+     gap:50px; 
+ }
+ .left-footer-sec{
+    /* background-color: rgb(133, 133, 8);   */
+    height: 300px;
+    width: 400px;
+    margin-top: 25px;
+ }
+ .left-footer-title{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 35px;
+ }
+ .left-footer-des{
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 14px;
+ }
+ .footer-email{
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 14px;
+ }
+ .footer-mobile{
+    margin-top: 15px;
+    font-weight: 100;
+    font-size: 14px;
+ }
+ .footer-icon{
+    margin-top: 15px;
+    height: 35px;
+    width: 35px;
+ }
+
+ /* Footer Right site styles */
+ .right-footer-sec{
+    /* background-color: rgb(133, 133, 8); */
+    height: 300px;
+    width: 400px;
+    margin-top: 25px;
+    margin-right: -140px;
+ }
+ .right-footer-title{
+     font-weight: 600;
+     font-size: 20px;
+     margin-top: 35px;
+ }
+ .email{
+     margin-top: 18px;
+     color: white;
+     border: 1px solid;
+     padding: 10px 100px 10px 10px;
+     border-radius: 5px;
+     background-color: black;
+     height: 25px;
+ }
+ .submit{
+     margin-top: 10px;
+     color: rgb(255, 75, 44);
+     background: white;
+     border: 0;
+     padding: 13px 27px;
+     border-radius: 5px;
+     font-weight: 600;
+     font-size: 15px;
+ }
